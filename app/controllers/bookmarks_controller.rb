@@ -1,9 +1,9 @@
 class BookmarksController < ProtectedController
-  before_action :set_bookmark, only: %i[update destroy]
+  before_action :set_bookmark, only: [:update, :destroy]
 
   # GET /bookmarks
   def index
-    @bookmarks = Bookmark.all
+    @bookmarks = current_user.bookmarks.all
 
     render json: @bookmarks
   end
@@ -15,7 +15,7 @@ class BookmarksController < ProtectedController
 
   # POST /bookmarks
   def create
-    @bookmark = Bookmark.new(bookmark_params)
+    @bookmark = current_user.bookmarks.new(bookmark_params)
 
     if @bookmark.save
       render json: @bookmark, status: :created, location: @bookmark
@@ -41,11 +41,11 @@ class BookmarksController < ProtectedController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_bookmark
-      @bookmark = Bookmark.find(params[:id])
+      @bookmark = current_user.bookmarks.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
     def bookmark_params
-      params.require(:bookmark).permit(:title, :description, :url)
+      params.require(:bookmark).permit(:title, :description, :url, :user_id)
     end
 end
