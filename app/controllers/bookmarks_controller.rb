@@ -1,4 +1,4 @@
-class BookmarksController < OpenReadController
+class BookmarksController < ProtectedController
   before_action :set_bookmark, only: %i[update destroy]
 
   # GET /bookmarks
