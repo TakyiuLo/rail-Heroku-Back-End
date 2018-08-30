@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl "http://localhost:4741/bookmarks" \
+curl "https://rail-heroku-project-temple.herokuapp.com/bookmarks" \
   --include \
   --request GET \
   --header "Authorization: Token token=${TOKEN}" \
