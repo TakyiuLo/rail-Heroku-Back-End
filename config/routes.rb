@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  resources :bookmarks
   resources :bookmarks, except: %i[show new edit]
   # RESTful routes
   resources :examples, except: %i[new edit]
