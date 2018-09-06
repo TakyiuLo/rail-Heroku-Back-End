@@ -1,8 +1,12 @@
-# Rails API for Bookmark
-This is the backend of the application Bookmarks.
+## Rails API for Bookmarks
+# Summary
+The main training purpose is to use Ruby on rails to create the API for Bookmarks.
+The API have 8 main actions. They are CRUD for /bookmarks and /folders respectively.
+The database I am using is Heroku. The rails does use MVC (model, view, controller)
+layout. 
 
-# CRUD Actions for User
-
+# Tech used
+- Ruby on Rails, PSQL, Heroku, Git, GitHub, MVC
 
 # Version 1
 The backend relationship model is using one to many resource.
@@ -28,3 +32,6 @@ resource named folder that is also self joined.
 
 # Front-End
 To front-end: [Front-End repo](https://github.com/TakyiuLo/rail-Heroku-Front-End)
+
+# Steps I took
+I use scaffold and migration. Before I migrate, I always look at schema to check
