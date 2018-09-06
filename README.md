@@ -27,4 +27,4 @@ resource named folder that is also self joined.
 - DELETE /folders/:id
 
 # Front-End
-To front-end: [front-end repo](https://github.com/TakyiuLo/rail-Heroku-Front-End)
+To front-end: [Front-End repo](https://github.com/TakyiuLo/rail-Heroku-Front-End)
