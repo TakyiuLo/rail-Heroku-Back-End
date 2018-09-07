@@ -9,7 +9,7 @@ This is the back end of [Bookmarks](bookmarks-page) page. A client will be able 
 The backend relationship model is using one to many resources.
 [ERD](https://i.imgur.com/NZcQJie.png)
 
-## CRUD Actions
+### CRUD Actions
 | Verb | URL Pattern |
 | ------------- | ------------- |
 | Get | /bookmarks |
@@ -24,7 +24,7 @@ The backend relationship modal is using one to many resources. It has a second
 resource named folder that is also self-joined.
 [ERD](https://i.imgur.com/ETTBLPn.png)
 
-## CRUD Actions
+### CRUD Actions
 | Verb | URL Pattern |
 | ------------- | ------------- |
 | Get | /folders |
