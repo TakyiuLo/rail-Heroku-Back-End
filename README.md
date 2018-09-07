@@ -1,15 +1,12 @@
 # Rails API for Bookmarks
 ## Summary
-The main training purpose is to use Ruby on rails to create the API for Bookmarks.
-The API have 8 main actions. They are CRUD for /bookmarks and /folders respectively.
-The database I am using is Heroku. The rails does use MVC (model, view, controller)
-layout. 
+This is the back end of [Bookmarks](bookmarks-page) page. A client will be able to request bookmarks. It is using Ruby on Rails to handle requests from the client. Version One have only one resource. Version two have two resources.
 
 ## Tech used
-- Ruby on Rails, PSQL, Heroku, Git, GitHub, MVC
+- Ruby on Rails, PSQL, Heroku, Git, GitHub
 
 ## Version 1
-The backend relationship model is using one to many resource.
+The backend relationship model is using one to many resources.
 [Imgur](https://i.imgur.com/NZcQJie.png)
 
 ## CRUD Actions
@@ -20,18 +17,20 @@ The backend relationship model is using one to many resource.
 [Domain](https://rail-heroku-project-temple.herokuapp.com/)
 
 ## Version 2
-The backend relationship modal is using one to many resouses. It have a second
-resource named folder that is also self joined.
+The backend relationship modal is using one to many resources. It has a second
+resource named folder that is also self-joined.
 [Imgur](https://i.imgur.com/ETTBLPn.png)
 
-## CRUD Actions:
+## CRUD Actions
 - GET /folders
 - POST /folders
 - PATCH /folders/:id
 - DELETE /folders/:id
 
-## Front-End
-To front-end: [Front-End repo](https://github.com/TakyiuLo/rail-Heroku-Front-End)
-
-## Steps I took
-I use scaffold and migration. Before I migrate, I always look at schema to check
+## Repo and Deployment
+[Front-end repo](https://github.com/TakyiuLo/rail-Heroku-Front-End)
+[Front-end Deployment](https://takyiulo.github.io/rail-Heroku-Front-End)
+[bookmarks-page]: https://takyiulo.github.io/rail-Heroku-Front-End
+<!-- [Back-end Repo](https://github.com/TakyiuLo/rail-Heroku-Back-End) -->
+[Back-end Deployment V1](https://rail-heroku-project-temple.herokuapp.com/bookmarks)
+[Back-end Deployment V2](https://rail-heroku-project-temple.herokuapp.com/folders)
