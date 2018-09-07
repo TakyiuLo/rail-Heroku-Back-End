@@ -33,9 +33,9 @@ resource named folder that is also self-joined.
 | DELETE | /folders/:id |
 
 ## Repo and Deployment
+<!-- - [Back-end Repo](https://github.com/TakyiuLo/rail-Heroku-Back-End) -->
 - [Front-end repo](https://github.com/TakyiuLo/rail-Heroku-Front-End)
 - [Front-end Deployment](https://takyiulo.github.io/rail-Heroku-Front-End)
-<!-- - [Back-end Repo](https://github.com/TakyiuLo/rail-Heroku-Back-End) -->
 - [Back-end Deployment V1](https://rail-heroku-project-temple.herokuapp.com/bookmarks)
 - [Back-end Deployment V2](https://rail-heroku-project-temple.herokuapp.com/folders)
 
