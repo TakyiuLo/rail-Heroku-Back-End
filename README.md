@@ -10,10 +10,13 @@ The backend relationship model is using one to many resources.
 [ERD](https://i.imgur.com/NZcQJie.png)
 
 ## CRUD Actions
-- GET /bookmarks
-- POST /bookmarks
-- PATCH /bookmark/:id
-- DELETE /bookmarks/:id
+| Verb | URL Pattern |
+| ------------- | ------------- |
+| Get | /bookmarks |
+| POST | /bookmarks |
+| PATCH | /bookmarks/:id |
+| DELETE | /bookmarks/:id |
+
 - [Domain](https://rail-heroku-project-temple.herokuapp.com/)
 
 ## Version 2
@@ -22,10 +25,12 @@ resource named folder that is also self-joined.
 [ERD](https://i.imgur.com/ETTBLPn.png)
 
 ## CRUD Actions
-- GET /folders
-- POST /folders
-- PATCH /folders/:id
-- DELETE /folders/:id
+| Verb | URL Pattern |
+| ------------- | ------------- |
+| Get | /folders |
+| POST | /folders |
+| PATCH | /folders/:id |
+| DELETE | /folders/:id |
 
 ## Repo and Deployment
 - [Front-end repo](https://github.com/TakyiuLo/rail-Heroku-Front-End)
