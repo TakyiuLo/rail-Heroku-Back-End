@@ -14,7 +14,7 @@ The backend relationship model is using one to many resources.
 - POST /bookmarks
 - PATCH /bookmark/:id
 - DELETE /bookmarks/:id
-[Domain](https://rail-heroku-project-temple.herokuapp.com/)
+- [Domain](https://rail-heroku-project-temple.herokuapp.com/)
 
 ## Version 2
 The backend relationship modal is using one to many resources. It has a second
