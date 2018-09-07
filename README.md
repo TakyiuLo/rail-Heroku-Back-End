@@ -7,7 +7,7 @@ This is the back end of [Bookmarks](bookmarks-page) page. A client will be able 
 
 ## Version 1
 The backend relationship model is using one to many resources.
-[Imgur](https://i.imgur.com/NZcQJie.png)
+[Img](https://i.imgur.com/NZcQJie.png)
 
 ## CRUD Actions
 - GET /bookmarks
@@ -19,7 +19,7 @@ The backend relationship model is using one to many resources.
 ## Version 2
 The backend relationship modal is using one to many resources. It has a second
 resource named folder that is also self-joined.
-[Imgur](https://i.imgur.com/ETTBLPn.png)
+[Img](https://i.imgur.com/ETTBLPn.png)
 
 ## CRUD Actions
 - GET /folders
