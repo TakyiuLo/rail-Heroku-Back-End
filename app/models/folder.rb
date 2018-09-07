@@ -3,7 +3,7 @@ class Folder < ApplicationRecord
                              foreign_key: 'folder_id',
                              optional: true
   belongs_to :user
-  has_many :bookmarks
+  has_many :bookmarks, dependent: :destroy
   # we need this to remove any sub folders
   has_many :sub_folders, class_name: 'Folder',
                          foreign_key: 'folder_id',
