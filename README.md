@@ -2,11 +2,20 @@
 ## Summary
 This is the back end of [Bookmarks](bookmarks-page) page. A client will be able to request bookmarks. It is using Ruby on Rails to handle requests from the client. Version one has only one resource. Version two have two resources.
 
+## Plan
+I started with the back-end first because it matters the most. Once I finished
+the backend, I create some curl scripts and test it on my api.
+
+## Problem-solving strategy
+I used Google and Stack-Overflow to find answers to my problems. Then if I couldn't find 
+one, I went on to the queue stack to post my problems.
+
 ## Tech used
 - Ruby on Rails, PSQL, Heroku, Git, GitHub
 
 ## Version 1
-The backend relationship model is using one to many resources. Users and bookmarks are in one to many relationship.
+The backend relationship model is using one to many resources. Users and bookmarks are in 
+one to many relationship.
 [ERD](https://i.imgur.com/NZcQJie.png)
 
 ### CRUD Actions
