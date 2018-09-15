@@ -1,12 +1,12 @@
 # Rails API for Bookmarks
 ## Summary
-This is the back end of [Bookmarks](bookmarks-page) page. A client will be able to request bookmarks. It is using Ruby on Rails to handle requests from the client. Version One have only one resource. Version two have two resources.
+This is the back end of [Bookmarks](bookmarks-page) page. A client will be able to request bookmarks. It is using Ruby on Rails to handle requests from the client. Version one has only one resource. Version two have two resources.
 
 ## Tech used
 - Ruby on Rails, PSQL, Heroku, Git, GitHub
 
 ## Version 1
-The backend relationship model is using one to many resources.
+The backend relationship model is using one to many resources. Users and bookmarks are in one to many relationship.
 [ERD](https://i.imgur.com/NZcQJie.png)
 
 ### CRUD Actions
@@ -21,7 +21,9 @@ The backend relationship model is using one to many resources.
 
 ## Version 2
 The backend relationship modal is using one to many resources. It has a second
-resource named folder that is also self-joined.
+resource named folder that is self-joined. So now users have one to many bookmarks
+and one to many folders. Folders have one to many relationship with bookmarks and
+self-joined.
 [ERD](https://i.imgur.com/ETTBLPn.png)
 
 ### CRUD Actions
